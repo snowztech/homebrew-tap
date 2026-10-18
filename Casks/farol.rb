@@ -12,6 +12,7 @@ cask "farol" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
@@ -19,6 +20,7 @@ cask "farol" do
 
   zap trash: [
     "~/.config/farol",
+    "~/Library/Caches/dev.farol.Farol",
     "~/Library/Preferences/dev.farol.Farol.plist",
   ]
 end
