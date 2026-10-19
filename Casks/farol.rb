@@ -1,6 +1,6 @@
 cask "farol" do
-  version "0.44.0"
-  sha256 "84e6ebf19808c033b08612f9b2b6b2efba68a475295794c41faf09675b5b051d"
+  version "0.45.0"
+  sha256 "1386cc1b47dacbaf9fa1f519ddd15776db371ea45218f5f77288fa333d74a2c3"
 
   url "https://github.com/snowztech/farol/releases/download/v#{version}/Farol.dmg"
   name "Farol"
