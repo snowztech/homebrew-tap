@@ -1,6 +1,6 @@
 cask "holt" do
-  version "0.1.0"
-  sha256 "4ce89eeec8ee2a74ed28369a2fc354721c63ccbeb2bae2cde9f212d09186a33d"
+  version "0.1.1"
+  sha256 "2fa9c9bef054a6bc7784f3897b21ac63617eae4d260de9740b42ab115062a933"
 
   url "https://github.com/snowztech/holt/releases/download/v#{version}/Holt.dmg"
   name "Holt"
@@ -12,6 +12,7 @@ cask "holt" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
