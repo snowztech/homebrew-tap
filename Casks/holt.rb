@@ -1,6 +1,6 @@
 cask "holt" do
-  version "0.1.2"
-  sha256 "aacb4a7b675ecee04df06cb6e4631e82933ecd3ba061cdbfdcaa12d69ac613ea"
+  version "0.1.3"
+  sha256 "eba86b0c2e4c07a1efa186c676dc52cdb1c9ab2da7e445d2265641b2a6dc4657"
 
   url "https://github.com/snowztech/holt/releases/download/v#{version}/Holt.dmg"
   name "Holt"
