@@ -1,6 +1,6 @@
 cask "onecorp" do
-  version "0.1.8"
-  sha256 "0ba08459c2d06c59260fd9f2ec64c926ca419f62cecb9eeb02d9e229ed84a011"
+  version "0.1.9"
+  sha256 "77cd0e5f810ac74931180877ab37dde4f7781fa9d4a3643757baf207d0c4f4d7"
 
   url "https://github.com/snowztech/onecorp/releases/download/v#{version}/OneCorp.dmg"
   name "OneCorp"
