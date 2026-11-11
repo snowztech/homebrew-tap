@@ -1,6 +1,6 @@
 cask "onecorp" do
-  version "0.1.5"
-  sha256 "6762ba0908edd05a8b8a03f4f2618d24e2f871b8942780382a53c03b4f02b2f8"
+  version "0.1.6"
+  sha256 "eca17c7bd3b19ddace66b6d05969c8a68c7203261f344eaed6d325a9f88a1422"
 
   url "https://github.com/snowztech/onecorp/releases/download/v#{version}/OneCorp.dmg"
   name "OneCorp"
@@ -9,5 +9,9 @@ cask "onecorp" do
 
   app "OneCorp.app"
 
-  zap trash: "~/.onecorp"
+  zap trash: [
+    "~/.onecorp",
+    "~/Library/WebKit/dev.onecorp.desktop",
+    "~/Library/Caches/dev.onecorp.desktop",
+  ]
 end
